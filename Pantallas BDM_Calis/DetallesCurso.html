@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Datelles del Curso | SkillHive</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="DetallesCurso.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="menu container">
+           
+            <div class="imagen-logo">
+             <img src="imagenes/Logo2.png" alt="Logo" class="logo"> 
+             </div>
+            <a href="Principal.html" class="logo">SkillHive</a>
+        
+            <input type="checkbox" id="menu"/>
+            <label for="menu">
+                <i class='bx bx-menu'></i>
+            </label>
+        
+            <nav class="navbar">
+                <ul>
+                    <li><a href="Principal.html">Home</a></li>
+                    <li><a href="#">Mi Perfil</a></li>
+                    <li><a href="Cursos.html">Cursos</a></li>
+                    <li><a href="Login.html">Cerrar Sesión</a></li>
+                </ul>
+
+            </nav>
+        
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <i class='bx bxs-cart' id="img-carrito"></i>
+                        <div id="carrito">
+                             <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>Imagen</th>
+                                      <th>Curso</th>
+                                        <th>Precio</th>
+                                         <th></th>
+                                    </tr>
+                              </thead>
+                        <tbody></tbody>
+                    </table>
+                    <a href="#" id="vaciar-carrito" class="btn-2">Vaciar Carrito</a>
+                    </div>
+                    </li>
+                    
+                </ul>
+            </div>
+        
+        </div>
+        
+    </header>
+
+    <main>
+
+        <section class="curso-intro">
+            <img src="imagenes/Curso22.1.jpg" class="course-image">
+            <div class="detalles-curso">
+                <h2>Maestro del Dibujo Digital: De Principiante a Profesional</h2>
+                <p>Aprende a dominar el arte del dibujo digital con técnicas avanzadas y herramientas de última generación</p>
+                <p>Este curso es ideal para quienes buscan mejorar sus habilidades en ilustración digital y diseño gráfico. Aprende a trabajar con las herramientas digitales de plataformas como Adobe Ilustrator y Krita</p>
+                <p> Curso impartido por el/la docente: <strong>Amanda Torres</strong></p>
+                <p><a href="#" class="categoria"><strong>Arte 2D</a></p>
+                <p class="precio2">$450</p>
+                <div class="valoraciones2">
+                    <i class='bx bx-user'></i>
+                    <h4>2100</h4>
+                    <i class='bx bx-heart'></i>
+                    <h4>95%</h4>
+                </div>
+                <a href="#" class="agregar-carrito btn-3" data-id="19">Agregar al carrito</a>
+            </div>
+        </section>
+
+        <section class="media-gallery">
+            <h3>Galería del Curso</h3>
+            <div class="gallery">
+                <img src="imagenes/Curso22.2.png" alt="Foto del curso">
+                <img src="imagenes/Curso22.3.png" alt="Foto del curso">
+                <img src="imagenes/Curso22.4.jpg" alt="Foto del curso">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Vu5n2fKXBY0?si=gY4H4ff0oCDkBXCF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            
+            </div>
+        </section>
+
+        <section class="instructor-info">
+            <h3>Sobre el Instructor</h3>
+            <img src="imagenes/Instructor1.jpg" alt="Imagen del instructor" class="instructor-image">
+            <div class="instructor-text">
+                <p><a href="#" class="intructor"><strong>Amanda Torres</strong></a></p>
+                <p>Especialista en Desarrollo Web con más de 10 años de experiencia en la industria. Ha trabajado en proyectos internacionales y es apasionada por la enseñanza.</p>
+            </div>    
+        </section>
+
+        <section class="comments-section">
+            <h3>Comentarios y Calificaciones</h3>
+            <div class="comments-list">
+                <!-- Comentarios existentes -->
+
+                <div class="comment">
+                    <img src="imagenes/Persona2.jpg" alt="Imagen del instructor" class="instructor-image">
+                    <p><a href="#" class="usuario-comment"><strong>Camila Hernández Peña</strong></a></p>
+                    <h6>20/Agosto/2024</h6>
+                    <h5>Me fascinó este curso, te enseña un poco de todo, es muy recomendable!</h5>
+                </div>
+
+                <div class="comment">
+                    <img src="imagenes/Persona1.jpg" alt="Imagen del instructor" class="instructor-image">
+                    <p><a href="#" class="usuario-comment"><strong>Juan Pérez</strong></a></p>
+                    <h6>16/Septiembre/2024</h6>
+                    <h5>Excelente curso, muy completo.</h5>
+                </div>
+            </div>
+            <div class="add-comment">
+                <h4>Agregar nuevo comentario</h4>
+                <textarea placeholder="Escribe tu comentario aquí"></textarea>
+                <button>Enviar Comentario</button>
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="cursos-similares">
+           
+            <h2>--Cursos similares--</h2>
+                <div class="Cursos_s">
+
+                    <div class="CursoS_1">
+                        <div class="curso">
+                            <img src="imagenes/Curso33.jpg">
+                            <div class="curso-txt">
+                                <h3><a href="DetallesCurso.html" class="link-curso">Concept Art para Videojuegos: Diseño de Mundos y Personajes</a></h3>
+                                <p>Curso sobre la creación de concept art para videojuegos, incluyendo técnicas para diseñar mundos, personajes y elementos visuales que apoyen la narrativa del juego</p>
+                                <p class="precio">$615</p>
+                                
+                                <div class="valoraciones">
+                                    <i class='bx bx-user'></i>
+                                    <h4>690</h4>
+                                    <i class='bx bx-heart'></i>
+                                    <h4>92%</h4>
+                                </div>
+    
+                                <a href="#" class="agregar-carrito btn-3" data-id="30">Agregar al carrito</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="CursoS_1">
+                        <div class="curso">
+                            <img src="imagenes/Curso34.jpg">
+                            <div class="curso-txt">
+                                <h3><a href="DetallesCurso.html" class="link-curso">Arte en 2D para Animación: Crea Personajes y Escenarios para Movimiento</a></h3>
+                                <p>Aprende a crear arte 2D para animación, incluyendo la creación de personajes y escenarios que puedan ser animados de manera efectiva</p>
+                                <p class="precio">$550</p>
+                                
+                                <div class="valoraciones">
+                                    <i class='bx bx-user'></i>
+                                    <h4>740</h4>
+                                    <i class='bx bx-heart'></i>
+                                    <h4>97%</h4>
+                                </div>
+    
+                                <a href="#" class="agregar-carrito btn-3" data-id="31">Agregar al carrito</a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="CursoS_1">
+                        <div class="curso">
+                            <img src="imagenes/Curso35.jpg">
+                            <div class="curso-txt">
+                                <h3><a href="DetallesCurso.html" class="link-curso">Dibujo de Retratos: Captura la Esencia de las Personas</a></h3>
+                                <p>Aprende técnicas para dibujar retratos realistas y expresivos, enfocándote en las características faciales, la expresión y el detalle</p>
+                                <p class="precio">$360</p>
+                                
+                                <div class="valoraciones">
+                                    <i class='bx bx-user'></i>
+                                    <h4>340</h4>
+                                    <i class='bx bx-heart'></i>
+                                    <h4>90%</h4>
+                                </div>
+    
+                                <a href="#" class="agregar-carrito btn-3" data-id="32">Agregar al carrito</a>
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
+        </section>
+
+    </main>
+
+    <footer class="footer-container">
+        <div class="link">
+           <h3>Categorías</h3>
+            <ul>
+                <li><a href="CursoCategoría.html">Arte 2D</a></li>
+                <li><a href="CursoCategoría.html">Comunicación</a></li>
+                <li><a href="CursoCategoría.html">Programación</a></li>
+                <li><a href="CursoCategoría.html">Cocina</a></li>
+                <li><a href="CursoCategoría.html">Costura</a></li>
+
+
+            </ul>
+        </div>
+
+        <div class="link">
+             <ul>
+                 <li><a href="CursoCategoría.html">Cine</a></li>
+                 <li><a href="CursoCategoría.html">Escritura</a></li>
+                 <li><a href="CursoCategoría.html">Nutrición</a></li>
+                 <li><a href="CursoCategoría.html">Mascotas</a></li>
+                 <li><a href="CursoCategoría.html">Música</a></li>
+ 
+             </ul>
+         </div>
+
+         <div class="link">
+            <h3>Sobre nosotros</h3>
+            <p>
+                Somos una empresa en crecimiento con el objetivo de
+                ofrecer cursos innovadores y de alta calidad. 
+                Únete a nuestra comunidad y descubre cómo podemos 
+                ayudarte a explorar nuevas habilidades y alcanzar
+                tu máximo potencial.
+            </p>
+        </div>
+
+    </footer>
+
+
+</body>

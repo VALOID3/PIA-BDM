@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venta de Cursos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a Cursos Online</h1>
+        <nav>
+            <ul>
+                <li><a href="#categories">Categorías</a></li>
+                <li><a href="#about">Sobre Nosotros</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="categories">
+            <h2>Categorías de Cursos</h2>
+            <div class="admin-message">
+                <p>Como administrador, puedes <a href="#add-category">agregar</a>, <a href="#edit-category">editar</a> o <a href="#delete-category">eliminar</a> categorías.</p>
+            </div>
+            <div class="category">
+                <h3>Desarrollo Web</h3>
+                <p>Aprende a construir sitios web modernos utilizando HTML, CSS, JavaScript y más.</p>
+                <p><strong>Creado por:</strong> Ana Pérez</p>
+                <p><strong>Fecha y hora:</strong> 2024-09-14 10:00 AM</p>
+                <div class="admin-actions">
+                    <button>Editar</button>
+                    <button>Eliminar</button>
+                </div>
+            </div>
+            <div class="category">
+                <h3>Marketing Digital</h3>
+                <p>Conoce las mejores prácticas en marketing digital, SEO, y publicidad en redes sociales.</p>
+                <p><strong>Creado por:</strong> Luis Gómez</p>
+                <p><strong>Fecha y hora:</strong> 2024-09-13 03:30 PM</p>
+                <div class="admin-actions">
+                    <button>Editar</button>
+                    <button>Eliminar</button>
+                </div>
+            </div>
+            <div class="category">
+                <h3>Diseño Gráfico</h3>
+                <p>Domina herramientas de diseño como Adobe Photoshop, Illustrator y más para crear gráficos impactantes.</p>
+                <p><strong>Creado por:</strong> María López</p>
+                <p><strong>Fecha y hora:</strong> 2024-09-12 08:45 AM</p>
+                <div class="admin-actions">
+                    <button>Editar</button>
+                    <button>Eliminar</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>Sobre Nosotros</h2>
+            <p>En Cursos Online ofrecemos una amplia variedad de cursos diseñados para ayudarte a mejorar tus habilidades y avanzar en tu carrera profesional.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contacto</h2>
+            <p>Para consultas, por favor contáctanos a través de <a href="mailto:info@cursosonline.com">info@cursosonline.com</a>.</p>
+        </section>
+
+        <section id="admin-panel">
+            <h2>Panel de Administración</h2>
+            <div id="add-category">
+                <h3>Agregar Categoría</h3>
+                <form>
+                    <label for="category-name">Nombre de la Categoría:</label>
+                    <input type="text" id="category-name" name="category-name" required>
+                    <label for="category-description">Descripción:</label>
+                    <textarea id="category-description" name="category-description" rows="4" required></textarea>
+                    <button type="submit">Agregar Categoría</button>
+                </form>
+            </div>
+            <div id="edit-category">
+                <h3>Editar Categoría</h3>
+                <!-- Similar form or controls for editing categories -->
+            </div>
+            <div id="delete-category">
+                <h3>Eliminar Categoría</h3>
+                <!-- Controls for deleting categories -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Cursos Online. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
