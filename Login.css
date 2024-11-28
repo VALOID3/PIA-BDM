@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Dosis", sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(imagenes/Fondo4.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.Container-form {
+    display: flex;
+    border-radius: 20px;
+    box-shadow: 0 5px 7px rgba(0,0,0,.1);
+    height: 600px;
+    max-width: 1000px;
+    margin: 10px;
+    border: solid thin whitesmoke;
+}
+
+.form-information {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    text-align: center;
+    background-color: rgb(254, 255, 248);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.form-information a{
+    color: white;
+    text-decoration: none;
+}
+
+.form-information-childs {
+    padding: 0 30px;
+    width: 80%;
+    height: 95%;
+}
+
+.form-information-childs h2 {
+    font-size: 30px;
+    color: #2c2026;
+    font-weight: 800;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+.form-information-childs h3{
+    font-size: 20px;
+    color: #2c2026;
+    font-weight: 600;
+    margin-top: -30px;
+}
+
+
+.form-information-childs label {
+    display: block; /* Para que cada label ocupe su propia línea */
+    font-size: 20px; 
+    margin-bottom: 20px; 
+    text-align: center; 
+    margin-top: 30px; 
+}
+
+.form-information-childs input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+
+.form-information-childs button{
+    background-color: #2c2026;
+    color: white;
+    border-radius: 5px;
+    border: solid 2px whitesmoke;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    box-shadow: 0 2px,5px rgba(0, 0, 0, 0.1);
+    font-size: 15px;
+}
+
+.form-information-childs button:hover{
+    background-color:#ffbf36;
+}
+
+
+/*Sessión de registro*/
+.information {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(135, 172, 207);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.info-childs {
+    width: 100%;
+    padding: 0 30px;
+}
+
+.info-childs img {
+    width: 300px;
+    margin-bottom: -30px;
+    margin-top: -70px;
+}
+
+.info-childs h1 {
+    margin-top: -15px;
+    font-family: "Sofadi One", system-ui;
+    font-weight: 800;
+    font-size: 40px;
+    margin-bottom: -10px;
+    color: #ffffff;
+}
+
+.info-childs h2 {
+    font-size: 25px;
+    margin-top: 50px;
+    color: #2c2026;
+}
+
+.info-childs h3 {
+    color: #fafce9;
+    margin-top: -5px;    
+    margin-bottom: 25px;
+}
+
+.info-childs button {
+    font-size: 15px;
+    background-color: #ffbf36;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: rgb(255, 255, 255);
+}
+
+.info-childs button:hover {
+    background-color: #2c2026;
+    color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .1);
+}
+
+#error-message {
+    color: red;
+    background-color: rgb(223, 130, 130);
+    font-weight: bold;
+    text-align: center;
+    display: inline-block; /* Para que el borde se ajuste al contenido */
+
+}
+

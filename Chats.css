@@ -1,0 +1,75 @@
+.chats-container{
+    background-color: white;
+    border-radius: 20px;
+    padding: 1rem;
+}
+
+.inbox-container{
+    background-color: white;
+    border-radius: 20px;
+    padding: 2rem;
+
+}
+
+
+.img-message{
+    border-radius: 100%;
+    width: 5rem;
+    height: 5rem;
+}
+
+a.a-chat{
+    text-decoration: none;
+    color: black;
+}
+
+a.a-chat:hover{
+    background-color: rgb(230, 230, 230);
+    text-decoration: none;
+}
+
+
+.messages-container{
+    position: relative; 
+    height: 400px;
+    line-height: 1em;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    width: 100%;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-color: #ffbf36;
+    padding: 2rem;
+}
+
+.ico-send{
+    font-size: 20px;
+}
+
+
+.input-message{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+
+.mensaje-remitente{
+    background-color: #ddd;
+    border-radius: 25px;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    width: 75%;
+}
+
+.mensaje-emisor{
+    background-color: #ffbf36;
+    border-radius: 25px;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    width: 75%;
+}
+
+/*https://mdbootstrap.com/docs/standard/extended/chat/#!*/
